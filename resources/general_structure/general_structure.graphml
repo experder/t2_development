@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+  <!--Created by yEd 3.19.1.1-->
+  <key attr.name="Beschreibung" attr.type="string" for="graph" id="d0"/>
+  <key for="port" id="d1" yfiles.type="portgraphics"/>
+  <key for="port" id="d2" yfiles.type="portgeometry"/>
+  <key for="port" id="d3" yfiles.type="portuserdata"/>
+  <key attr.name="url" attr.type="string" for="node" id="d4"/>
+  <key attr.name="description" attr.type="string" for="node" id="d5"/>
+  <key for="node" id="d6" yfiles.type="nodegraphics"/>
+  <key for="graphml" id="d7" yfiles.type="resources"/>
+  <key attr.name="url" attr.type="string" for="edge" id="d8"/>
+  <key attr.name="description" attr.type="string" for="edge" id="d9"/>
+  <key for="edge" id="d10" yfiles.type="edgegraphics"/>
+  <graph edgedefault="directed" id="G">
+    <data key="d0" xml:space="preserve"/>
+    <node id="n0" yfiles.foldertype="group">
+      <data key="d6">
+        <y:TableNode configuration="YED_TABLE_NODE">
+          <y:Geometry height="829.3730150457657" width="936.7903520097573" x="457.5336788913572" y="-150.23198898526815"/>
+          <y:Fill color="#99CC00" color2="#0042F440" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="40.7529296875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="564.96923828125" x="185.91055686425364" xml:space="preserve" y="4.0">ROOT_PROJECT
+Example: /var/www/myproject   Namespace: \myproject   Browser: HTTP_PROJECT</y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.awt.Color" name="yed.table.section.color" value="#7192b2"/>
+            <y:Property class="java.lang.Double" name="yed.table.header.height" value="24.0"/>
+            <y:Property class="java.awt.Color" name="yed.table.lane.color.main" value="#ffffff"/>
+            <y:Property class="java.awt.Color" name="yed.table.lane.color.alternating" value="#abc8e2"/>
+            <y:Property class="java.awt.Color" name="yed.table.header.color.alternating" value="#abc8e2"/>
+            <y:Property class="java.lang.String" name="yed.table.lane.style" value="lane.style.rows"/>
+            <y:Property class="java.awt.Color" name="yed.table.header.color.main" value="#c4d7ed"/>
+          </y:StyleProperties>
+          <y:State autoResize="true" closed="false" closedHeight="80.0" closedWidth="100.0"/>
+          <y:Insets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+          <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="1.7053025658242404E-13" right="0" rightF="2.2737367544323206E-13" top="8" topF="7.561410851346835"/>
+          <y:Table autoResizeTable="true" defaultColumnWidth="120.0" defaultMinimumColumnWidth="80.0" defaultMinimumRowHeight="50.0" defaultRowHeight="80.0">
+            <y:DefaultColumnInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+            <y:DefaultRowInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+            <y:Insets bottom="0.0" left="0.0" right="0.0" top="50.0"/>
+            <y:Columns>
+              <y:Column id="column_0" minimumWidth="80.0" width="936.790352009757">
+                <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+              </y:Column>
+            </y:Columns>
+            <y:Rows>
+              <y:Row height="779.3730150457657" id="row_0" minimumHeight="50.0">
+                <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+              </y:Row>
+            </y:Rows>
+          </y:Table>
+        </y:TableNode>
+      </data>
+      <graph edgedefault="directed" id="n0:">
+        <node id="n0::n0" yfiles.foldertype="group">
+          <data key="d6">
+            <y:TableNode configuration="YED_TABLE_NODE">
+              <y:Geometry height="643.1412532255015" width="936.7903520097568" x="457.5336788913574" y="35.99977283499604"/>
+              <y:Fill color="#FF9900" color2="#0042F440" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="129.42724609375" x="403.68155295800346" xml:space="preserve" y="4.0">Your project's repo</y:NodeLabel>
+              <y:StyleProperties>
+                <y:Property class="java.awt.Color" name="yed.table.section.color" value="#7192b2"/>
+                <y:Property class="java.lang.Double" name="yed.table.header.height" value="24.0"/>
+                <y:Property class="java.awt.Color" name="yed.table.lane.color.main" value="#ffffff"/>
+                <y:Property class="java.awt.Color" name="yed.table.lane.color.alternating" value="#abc8e2"/>
+                <y:Property class="java.awt.Color" name="yed.table.header.color.alternating" value="#abc8e2"/>
+                <y:Property class="java.lang.String" name="yed.table.lane.style" value="lane.style.rows"/>
+                <y:Property class="java.awt.Color" name="yed.table.header.color.main" value="#c4d7ed"/>
+              </y:StyleProperties>
+              <y:State autoResize="true" closed="false" closedHeight="80.0" closedWidth="100.0"/>
+              <y:Insets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+              <y:BorderInsets bottom="9" bottomF="8.750000000000682" left="11" leftF="10.515498230859464" right="11" rightF="11.03723404255311" top="11" topF="10.594284211958382"/>
+              <y:Table autoResizeTable="true" defaultColumnWidth="120.0" defaultMinimumColumnWidth="80.0" defaultMinimumRowHeight="50.0" defaultRowHeight="80.0">
+                <y:DefaultColumnInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                <y:DefaultRowInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                <y:Insets bottom="0.0" left="0.0" right="0.0" top="30.0"/>
+                <y:Columns>
+                  <y:Column id="column_0" minimumWidth="80.0" width="936.7903520097568">
+                    <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                  </y:Column>
+                </y:Columns>
+                <y:Rows>
+                  <y:Row height="613.1412532255015" id="row_0" minimumHeight="50.0">
+                    <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                  </y:Row>
+                </y:Rows>
+              </y:Table>
+            </y:TableNode>
+          </data>
+          <graph edgedefault="directed" id="n0::n0:">
+            <node id="n0::n0::n0" yfiles.foldertype="group">
+              <data key="d6">
+                <y:TableNode configuration="YED_TABLE_NODE">
+                  <y:Geometry height="190.07218933348418" width="289.1002726161752" x="468.04917712221686" y="277.7907272602448"/>
+                  <y:Fill color="#99CC00" color2="#0042F440" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="77.505859375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="246.58544921875" x="21.257411698712588" xml:space="preserve" y="4.0">ROOT_API
+Example: /var/www/myproject/t2_api
+Namespace: \t2\api
+Browser: HTTP_API</y:NodeLabel>
+                  <y:StyleProperties>
+                    <y:Property class="java.awt.Color" name="yed.table.section.color" value="#7192b2"/>
+                    <y:Property class="java.lang.Double" name="yed.table.header.height" value="24.0"/>
+                    <y:Property class="java.awt.Color" name="yed.table.lane.color.main" value="#ffffff"/>
+                    <y:Property class="java.awt.Color" name="yed.table.lane.color.alternating" value="#abc8e2"/>
+                    <y:Property class="java.awt.Color" name="yed.table.header.color.alternating" value="#abc8e2"/>
+                    <y:Property class="java.lang.String" name="yed.table.lane.style" value="lane.style.rows"/>
+                    <y:Property class="java.awt.Color" name="yed.table.header.color.main" value="#c4d7ed"/>
+                  </y:StyleProperties>
+                  <y:State autoResize="true" closed="false" closedHeight="80.0" closedWidth="100.0"/>
+                  <y:Insets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                  <y:BorderInsets bottom="10" bottomF="10.17144852488525" left="12" leftF="12.05013630808753" right="12" rightF="12.050136308087644" top="8" topF="7.755763570156432"/>
+                  <y:Table autoResizeTable="true" defaultColumnWidth="120.0" defaultMinimumColumnWidth="80.0" defaultMinimumRowHeight="50.0" defaultRowHeight="80.0">
+                    <y:DefaultColumnInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                    <y:DefaultRowInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                    <y:Insets bottom="0.0" left="0.0" right="0.0" top="90.0"/>
+                    <y:Columns>
+                      <y:Column id="column_0" minimumWidth="80.0" width="289.1002726161752">
+                        <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                      </y:Column>
+                    </y:Columns>
+                    <y:Rows>
+                      <y:Row height="100.07218933348418" id="row_0" minimumHeight="50.0">
+                        <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                      </y:Row>
+                    </y:Rows>
+                  </y:Table>
+                </y:TableNode>
+              </data>
+              <graph edgedefault="directed" id="n0::n0::n0:">
+                <node id="n0::n0::n0::n0">
+                  <data key="d6">
+                    <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+                      <y:Geometry height="82.14497723844252" width="265.0" x="480.0993134303044" y="375.54649083040124"/>
+                      <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                      <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="92.060546875" x="86.4697265625" xml:space="preserve" y="4.0">Config_core.php</y:NodeLabel>
+                      <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="249.443359375" x="2.0" xml:space="preserve" y="30.701171875">Project specific configuration of T2. See:
+ROOT_CORE/dev/templates/Config_core.php<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+                      <y:StyleProperties>
+                        <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+                      </y:StyleProperties>
+                    </y:GenericNode>
+                  </data>
+                </node>
+              </graph>
+            </node>
+            <node id="n0::n0::n1" yfiles.foldertype="group">
+              <data key="d6">
+                <y:TableNode configuration="YED_TABLE_NODE">
+                  <y:Geometry height="189.99999999999997" width="289.1002726161752" x="468.04917712221686" y="76.59405704695442"/>
+                  <y:Fill color="#99CC00" color2="#0042F440" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="77.505859375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="218.22607421875" x="35.43709919871259" xml:space="preserve" y="4.0">ROOT_CORE
+Example: /var/www/myproject/t2
+Namespace: \t2\core
+Browser: HTTP_CORE</y:NodeLabel>
+                  <y:StyleProperties>
+                    <y:Property class="java.awt.Color" name="yed.table.section.color" value="#7192b2"/>
+                    <y:Property class="java.lang.Double" name="yed.table.header.height" value="24.0"/>
+                    <y:Property class="java.awt.Color" name="yed.table.lane.color.main" value="#ffffff"/>
+                    <y:Property class="java.awt.Color" name="yed.table.lane.color.alternating" value="#abc8e2"/>
+                    <y:Property class="java.awt.Color" name="yed.table.header.color.alternating" value="#abc8e2"/>
+                    <y:Property class="java.lang.String" name="yed.table.lane.style" value="lane.style.rows"/>
+                    <y:Property class="java.awt.Color" name="yed.table.header.color.main" value="#c4d7ed"/>
+                  </y:StyleProperties>
+                  <y:State autoResize="true" closed="false" closedHeight="80.0" closedWidth="100.0"/>
+                  <y:Insets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                  <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="5.6843418860808015E-14" right="0" rightF="0.0" top="0" topF="0.0"/>
+                  <y:Table autoResizeTable="true" defaultColumnWidth="120.0" defaultMinimumColumnWidth="80.0" defaultMinimumRowHeight="50.0" defaultRowHeight="80.0">
+                    <y:DefaultColumnInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                    <y:DefaultRowInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                    <y:Insets bottom="0.0" left="0.0" right="0.0" top="90.0"/>
+                    <y:Columns>
+                      <y:Column id="column_0" minimumWidth="80.0" width="289.1002726161752">
+                        <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                      </y:Column>
+                    </y:Columns>
+                    <y:Rows>
+                      <y:Row height="99.99999999999997" id="row_0" minimumHeight="50.0">
+                        <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                      </y:Row>
+                    </y:Rows>
+                  </y:Table>
+                </y:TableNode>
+              </data>
+              <graph edgedefault="directed" id="n0::n0::n1:">
+                <node id="n0::n0::n1::n0" yfiles.foldertype="group">
+                  <data key="d6">
+                    <y:TableNode configuration="YED_TABLE_NODE">
+                      <y:Geometry height="100.0" width="289.1002726161751" x="468.0491771222169" y="166.59405704695442"/>
+                      <y:Fill color="#FFCC00" color2="#0042F440" transparent="false"/>
+                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="40.7529296875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="227.447265625" x="30.82650349558753" xml:space="preserve" y="4.0">Submodule: T2
+https://github.com/experder/T2.git</y:NodeLabel>
+                      <y:StyleProperties>
+                        <y:Property class="java.awt.Color" name="yed.table.section.color" value="#7192b2"/>
+                        <y:Property class="java.lang.Double" name="yed.table.header.height" value="24.0"/>
+                        <y:Property class="java.awt.Color" name="yed.table.lane.color.main" value="#ffffff"/>
+                        <y:Property class="java.awt.Color" name="yed.table.lane.color.alternating" value="#abc8e2"/>
+                        <y:Property class="java.awt.Color" name="yed.table.header.color.alternating" value="#abc8e2"/>
+                        <y:Property class="java.lang.String" name="yed.table.lane.style" value="lane.style.rows"/>
+                        <y:Property class="java.awt.Color" name="yed.table.header.color.main" value="#c4d7ed"/>
+                      </y:StyleProperties>
+                      <y:State autoResize="true" closed="false" closedHeight="80.0" closedWidth="100.0"/>
+                      <y:Insets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                      <y:Table autoResizeTable="true" defaultColumnWidth="120.0" defaultMinimumColumnWidth="80.0" defaultMinimumRowHeight="50.0" defaultRowHeight="80.0">
+                        <y:DefaultColumnInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                        <y:DefaultRowInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                        <y:Insets bottom="0.0" left="0.0" right="0.0" top="50.0"/>
+                        <y:Columns>
+                          <y:Column id="column_0" minimumWidth="80.0" width="289.1002726161751">
+                            <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                          </y:Column>
+                        </y:Columns>
+                        <y:Rows>
+                          <y:Row height="50.0" id="row_0" minimumHeight="50.0">
+                            <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                          </y:Row>
+                        </y:Rows>
+                      </y:Table>
+                    </y:TableNode>
+                  </data>
+                  <graph edgedefault="directed" id="n0::n0::n1::n0:"/>
+                </node>
+              </graph>
+            </node>
+            <node id="n0::n0::n2" yfiles.foldertype="group">
+              <data key="d6">
+                <y:TableNode configuration="YED_TABLE_NODE">
+                  <y:Geometry height="120.0" width="289.10027261617523" x="769.1169302309365" y="78.27278843040125"/>
+                  <y:Fill color="#99CC00" color2="#0042F440" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.12939453125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="260.75048828125" x="14.174892167462644" xml:space="preserve" y="4.0">ROOT_INCLUDES
+Example: /var/www/myproject/includes
+Browser: HTTP_INCLUDES</y:NodeLabel>
+                  <y:StyleProperties>
+                    <y:Property class="java.awt.Color" name="yed.table.section.color" value="#7192b2"/>
+                    <y:Property class="java.lang.Double" name="yed.table.header.height" value="24.0"/>
+                    <y:Property class="java.awt.Color" name="yed.table.lane.color.main" value="#ffffff"/>
+                    <y:Property class="java.awt.Color" name="yed.table.lane.color.alternating" value="#abc8e2"/>
+                    <y:Property class="java.awt.Color" name="yed.table.header.color.alternating" value="#abc8e2"/>
+                    <y:Property class="java.lang.String" name="yed.table.lane.style" value="lane.style.rows"/>
+                    <y:Property class="java.awt.Color" name="yed.table.header.color.main" value="#c4d7ed"/>
+                  </y:StyleProperties>
+                  <y:State autoResize="true" closed="false" closedHeight="80.0" closedWidth="100.0"/>
+                  <y:Insets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                  <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                  <y:Table autoResizeTable="true" defaultColumnWidth="120.0" defaultMinimumColumnWidth="80.0" defaultMinimumRowHeight="50.0" defaultRowHeight="80.0">
+                    <y:DefaultColumnInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                    <y:DefaultRowInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                    <y:Insets bottom="0.0" left="0.0" right="0.0" top="70.0"/>
+                    <y:Columns>
+                      <y:Column id="column_0" minimumWidth="80.0" width="289.10027261617523">
+                        <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                      </y:Column>
+                    </y:Columns>
+                    <y:Rows>
+                      <y:Row height="50.0" id="row_0" minimumHeight="50.0">
+                        <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                      </y:Row>
+                    </y:Rows>
+                  </y:Table>
+                </y:TableNode>
+              </data>
+              <graph edgedefault="directed" id="n0::n0::n2:"/>
+            </node>
+            <node id="n0::n0::n3" yfiles.foldertype="group">
+              <data key="d6">
+                <y:TableNode configuration="YED_TABLE_NODE">
+                  <y:Geometry height="120.0" width="289.10027261617523" x="769.1169302309365" y="212.1923921535996"/>
+                  <y:Fill color="#99CC00" color2="#0042F440" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.12939453125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="252.38623046875" x="18.357021073712644" xml:space="preserve" y="4.0">ROOT_SKIN
+Example: /var/www/myproject/myskin
+Browser: HTTP_SKIN</y:NodeLabel>
+                  <y:StyleProperties>
+                    <y:Property class="java.awt.Color" name="yed.table.section.color" value="#7192b2"/>
+                    <y:Property class="java.lang.Double" name="yed.table.header.height" value="24.0"/>
+                    <y:Property class="java.awt.Color" name="yed.table.lane.color.main" value="#ffffff"/>
+                    <y:Property class="java.awt.Color" name="yed.table.lane.color.alternating" value="#abc8e2"/>
+                    <y:Property class="java.awt.Color" name="yed.table.header.color.alternating" value="#abc8e2"/>
+                    <y:Property class="java.lang.String" name="yed.table.lane.style" value="lane.style.rows"/>
+                    <y:Property class="java.awt.Color" name="yed.table.header.color.main" value="#c4d7ed"/>
+                  </y:StyleProperties>
+                  <y:State autoResize="true" closed="false" closedHeight="80.0" closedWidth="100.0"/>
+                  <y:Insets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                  <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                  <y:Table autoResizeTable="true" defaultColumnWidth="120.0" defaultMinimumColumnWidth="80.0" defaultMinimumRowHeight="50.0" defaultRowHeight="80.0">
+                    <y:DefaultColumnInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                    <y:DefaultRowInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                    <y:Insets bottom="0.0" left="0.0" right="0.0" top="70.0"/>
+                    <y:Columns>
+                      <y:Column id="column_0" minimumWidth="80.0" width="289.10027261617523">
+                        <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                      </y:Column>
+                    </y:Columns>
+                    <y:Rows>
+                      <y:Row height="50.0" id="row_0" minimumHeight="50.0">
+                        <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                      </y:Row>
+                    </y:Rows>
+                  </y:Table>
+                </y:TableNode>
+              </data>
+              <graph edgedefault="directed" id="n0::n0::n3:"/>
+            </node>
+            <node id="n0::n0::n4" yfiles.foldertype="group">
+              <data key="d6">
+                <y:TableNode configuration="YED_TABLE_NODE">
+                  <y:Geometry height="319.6016552300955" width="313.10211351890484" x="1070.1846833396562" y="350.78937083040125"/>
+                  <y:Fill color="#99CC00" color2="#0042F440" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="184.087890625" x="64.50711144695242" xml:space="preserve" y="4.0">myproject/modules_shared</y:NodeLabel>
+                  <y:StyleProperties>
+                    <y:Property class="java.awt.Color" name="yed.table.section.color" value="#7192b2"/>
+                    <y:Property class="java.lang.Double" name="yed.table.header.height" value="24.0"/>
+                    <y:Property class="java.awt.Color" name="yed.table.lane.color.main" value="#ffffff"/>
+                    <y:Property class="java.awt.Color" name="yed.table.lane.color.alternating" value="#abc8e2"/>
+                    <y:Property class="java.awt.Color" name="yed.table.header.color.alternating" value="#abc8e2"/>
+                    <y:Property class="java.lang.String" name="yed.table.lane.style" value="lane.style.rows"/>
+                    <y:Property class="java.awt.Color" name="yed.table.header.color.main" value="#c4d7ed"/>
+                  </y:StyleProperties>
+                  <y:State autoResize="true" closed="false" closedHeight="80.0" closedWidth="100.0"/>
+                  <y:Insets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                  <y:BorderInsets bottom="9" bottomF="8.75" left="12" leftF="11.550423728813485" right="10" rightF="10.21276595744689" top="10" topF="9.624137694709134"/>
+                  <y:Table autoResizeTable="true" defaultColumnWidth="120.0" defaultMinimumColumnWidth="80.0" defaultMinimumRowHeight="50.0" defaultRowHeight="80.0">
+                    <y:DefaultColumnInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                    <y:DefaultRowInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                    <y:Insets bottom="0.0" left="0.0" right="0.0" top="30.0"/>
+                    <y:Columns>
+                      <y:Column id="column_0" minimumWidth="80.0" width="313.10211351890484">
+                        <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                      </y:Column>
+                    </y:Columns>
+                    <y:Rows>
+                      <y:Row height="289.6016552300955" id="row_0" minimumHeight="50.0">
+                        <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                      </y:Row>
+                    </y:Rows>
+                  </y:Table>
+                </y:TableNode>
+              </data>
+              <graph edgedefault="directed" id="n0::n0::n4:">
+                <node id="n0::n0::n4::n0" yfiles.foldertype="group">
+                  <data key="d6">
+                    <y:TableNode configuration="YED_TABLE_NODE">
+                      <y:Geometry height="130.0" width="291.33892383264447" x="1081.7351070684697" y="390.4135085251104"/>
+                      <y:Fill color="#99CC00" color2="#0042F440" transparent="false"/>
+                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="40.7529296875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="181.5830078125" x="54.877958010072234" xml:space="preserve" y="4.0">Module C
+Namespace: \t2\modules\c</y:NodeLabel>
+                      <y:StyleProperties>
+                        <y:Property class="java.awt.Color" name="yed.table.section.color" value="#7192b2"/>
+                        <y:Property class="java.lang.Double" name="yed.table.header.height" value="24.0"/>
+                        <y:Property class="java.awt.Color" name="yed.table.lane.color.main" value="#ffffff"/>
+                        <y:Property class="java.awt.Color" name="yed.table.lane.color.alternating" value="#abc8e2"/>
+                        <y:Property class="java.awt.Color" name="yed.table.header.color.alternating" value="#abc8e2"/>
+                        <y:Property class="java.lang.String" name="yed.table.lane.style" value="lane.style.rows"/>
+                        <y:Property class="java.awt.Color" name="yed.table.header.color.main" value="#c4d7ed"/>
+                      </y:StyleProperties>
+                      <y:State autoResize="true" closed="false" closedHeight="80.0" closedWidth="100.0"/>
+                      <y:Insets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                      <y:Table autoResizeTable="true" defaultColumnWidth="120.0" defaultMinimumColumnWidth="80.0" defaultMinimumRowHeight="50.0" defaultRowHeight="80.0">
+                        <y:DefaultColumnInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                        <y:DefaultRowInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                        <y:Insets bottom="0.0" left="0.0" right="0.0" top="50.0"/>
+                        <y:Columns>
+                          <y:Column id="column_0" minimumWidth="80.0" width="291.33892383264447">
+                            <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                          </y:Column>
+                        </y:Columns>
+                        <y:Rows>
+                          <y:Row height="80.0" id="row_0" minimumHeight="50.0">
+                            <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                          </y:Row>
+                        </y:Rows>
+                      </y:Table>
+                    </y:TableNode>
+                  </data>
+                  <graph edgedefault="directed" id="n0::n0::n4::n0:">
+                    <node id="n0::n0::n4::n0::n0" yfiles.foldertype="group">
+                      <data key="d6">
+                        <y:TableNode configuration="YED_TABLE_NODE">
+                          <y:Geometry height="80.0" width="291.33892383264447" x="1081.7351070684697" y="440.4135085251104"/>
+                          <y:Fill color="#FFCC00" color2="#0042F440" transparent="false"/>
+                          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="122.212890625" x="84.56301660382223" xml:space="preserve" y="4.0">Submodule 2: "C"</y:NodeLabel>
+                          <y:StyleProperties>
+                            <y:Property class="java.awt.Color" name="yed.table.section.color" value="#7192b2"/>
+                            <y:Property class="java.lang.Double" name="yed.table.header.height" value="24.0"/>
+                            <y:Property class="java.awt.Color" name="yed.table.lane.color.main" value="#ffffff"/>
+                            <y:Property class="java.awt.Color" name="yed.table.lane.color.alternating" value="#abc8e2"/>
+                            <y:Property class="java.awt.Color" name="yed.table.header.color.alternating" value="#abc8e2"/>
+                            <y:Property class="java.lang.String" name="yed.table.lane.style" value="lane.style.rows"/>
+                            <y:Property class="java.awt.Color" name="yed.table.header.color.main" value="#c4d7ed"/>
+                          </y:StyleProperties>
+                          <y:State autoResize="true" closed="false" closedHeight="80.0" closedWidth="100.0"/>
+                          <y:Insets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                          <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.05059021922414786"/>
+                          <y:Table autoResizeTable="true" defaultColumnWidth="120.0" defaultMinimumColumnWidth="80.0" defaultMinimumRowHeight="50.0" defaultRowHeight="80.0">
+                            <y:DefaultColumnInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                            <y:DefaultRowInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                            <y:Insets bottom="0.0" left="0.0" right="0.0" top="30.0"/>
+                            <y:Columns>
+                              <y:Column id="column_0" minimumWidth="80.0" width="291.33892383264447">
+                                <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                              </y:Column>
+                            </y:Columns>
+                            <y:Rows>
+                              <y:Row height="50.0" id="row_0" minimumHeight="50.0">
+                                <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                              </y:Row>
+                            </y:Rows>
+                          </y:Table>
+                        </y:TableNode>
+                      </data>
+                      <graph edgedefault="directed" id="n0::n0::n4::n0::n0:"/>
+                    </node>
+                  </graph>
+                </node>
+                <node id="n0::n0::n4::n1" yfiles.foldertype="group">
+                  <data key="d6">
+                    <y:TableNode configuration="YED_TABLE_NODE">
+                      <y:Geometry height="130.0" width="291.33892383264447" x="1081.7351070684697" y="531.6410260604968"/>
+                      <y:Fill color="#99CC00" color2="#0042F440" transparent="false"/>
+                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="40.7529296875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="182.42529296875" x="54.456815431947234" xml:space="preserve" y="4.0">Module D
+Namespace: \t2\modules\d</y:NodeLabel>
+                      <y:StyleProperties>
+                        <y:Property class="java.awt.Color" name="yed.table.section.color" value="#7192b2"/>
+                        <y:Property class="java.lang.Double" name="yed.table.header.height" value="24.0"/>
+                        <y:Property class="java.awt.Color" name="yed.table.lane.color.main" value="#ffffff"/>
+                        <y:Property class="java.awt.Color" name="yed.table.lane.color.alternating" value="#abc8e2"/>
+                        <y:Property class="java.awt.Color" name="yed.table.header.color.alternating" value="#abc8e2"/>
+                        <y:Property class="java.lang.String" name="yed.table.lane.style" value="lane.style.rows"/>
+                        <y:Property class="java.awt.Color" name="yed.table.header.color.main" value="#c4d7ed"/>
+                      </y:StyleProperties>
+                      <y:State autoResize="true" closed="false" closedHeight="80.0" closedWidth="100.0"/>
+                      <y:Insets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                      <y:Table autoResizeTable="true" defaultColumnWidth="120.0" defaultMinimumColumnWidth="80.0" defaultMinimumRowHeight="50.0" defaultRowHeight="80.0">
+                        <y:DefaultColumnInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                        <y:DefaultRowInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                        <y:Insets bottom="0.0" left="0.0" right="0.0" top="50.0"/>
+                        <y:Columns>
+                          <y:Column id="column_0" minimumWidth="80.0" width="291.33892383264447">
+                            <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                          </y:Column>
+                        </y:Columns>
+                        <y:Rows>
+                          <y:Row height="80.0" id="row_0" minimumHeight="50.0">
+                            <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                          </y:Row>
+                        </y:Rows>
+                      </y:Table>
+                    </y:TableNode>
+                  </data>
+                  <graph edgedefault="directed" id="n0::n0::n4::n1:">
+                    <node id="n0::n0::n4::n1::n0" yfiles.foldertype="group">
+                      <data key="d6">
+                        <y:TableNode configuration="YED_TABLE_NODE">
+                          <y:Geometry height="80.0" width="291.33892383264447" x="1081.7351070684697" y="581.6410260604968"/>
+                          <y:Fill color="#FFCC00" color2="#0042F440" transparent="false"/>
+                          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="122.212890625" x="84.56301660382223" xml:space="preserve" y="4.0">Submodule 3: "D"</y:NodeLabel>
+                          <y:StyleProperties>
+                            <y:Property class="java.awt.Color" name="yed.table.section.color" value="#7192b2"/>
+                            <y:Property class="java.lang.Double" name="yed.table.header.height" value="24.0"/>
+                            <y:Property class="java.awt.Color" name="yed.table.lane.color.main" value="#ffffff"/>
+                            <y:Property class="java.awt.Color" name="yed.table.lane.color.alternating" value="#abc8e2"/>
+                            <y:Property class="java.awt.Color" name="yed.table.header.color.alternating" value="#abc8e2"/>
+                            <y:Property class="java.lang.String" name="yed.table.lane.style" value="lane.style.rows"/>
+                            <y:Property class="java.awt.Color" name="yed.table.header.color.main" value="#c4d7ed"/>
+                          </y:StyleProperties>
+                          <y:State autoResize="true" closed="false" closedHeight="80.0" closedWidth="100.0"/>
+                          <y:Insets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                          <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.05059021922414786"/>
+                          <y:Table autoResizeTable="true" defaultColumnWidth="120.0" defaultMinimumColumnWidth="80.0" defaultMinimumRowHeight="50.0" defaultRowHeight="80.0">
+                            <y:DefaultColumnInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                            <y:DefaultRowInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                            <y:Insets bottom="0.0" left="0.0" right="0.0" top="30.0"/>
+                            <y:Columns>
+                              <y:Column id="column_0" minimumWidth="80.0" width="291.33892383264447">
+                                <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                              </y:Column>
+                            </y:Columns>
+                            <y:Rows>
+                              <y:Row height="50.0" id="row_0" minimumHeight="50.0">
+                                <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                              </y:Row>
+                            </y:Rows>
+                          </y:Table>
+                        </y:TableNode>
+                      </data>
+                      <graph edgedefault="directed" id="n0::n0::n4::n1::n0:"/>
+                    </node>
+                  </graph>
+                </node>
+              </graph>
+            </node>
+            <node id="n0::n0::n5" yfiles.foldertype="group">
+              <data key="d6">
+                <y:TableNode configuration="YED_TABLE_NODE">
+                  <y:Geometry height="261.34193394276974" width="313.10211351890484" x="1070.1846833396562" y="76.59405704695442"/>
+                  <y:Fill color="#99CC00" color2="#0042F440" transparent="false"/>
+                  <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                  <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="183.24560546875" x="64.92825402507742" xml:space="preserve" y="4.0">myproject/modules_private</y:NodeLabel>
+                  <y:StyleProperties>
+                    <y:Property class="java.awt.Color" name="yed.table.section.color" value="#7192b2"/>
+                    <y:Property class="java.lang.Double" name="yed.table.header.height" value="24.0"/>
+                    <y:Property class="java.awt.Color" name="yed.table.lane.color.main" value="#ffffff"/>
+                    <y:Property class="java.awt.Color" name="yed.table.lane.color.alternating" value="#abc8e2"/>
+                    <y:Property class="java.awt.Color" name="yed.table.header.color.alternating" value="#abc8e2"/>
+                    <y:Property class="java.lang.String" name="yed.table.lane.style" value="lane.style.rows"/>
+                    <y:Property class="java.awt.Color" name="yed.table.header.color.main" value="#c4d7ed"/>
+                  </y:StyleProperties>
+                  <y:State autoResize="true" closed="false" closedHeight="80.0" closedWidth="100.0"/>
+                  <y:Insets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                  <y:BorderInsets bottom="10" bottomF="9.663202559322883" left="12" leftF="11.550423728813485" right="10" rightF="10.21276595744689" top="11" topF="11.174405120000003"/>
+                  <y:Table autoResizeTable="true" defaultColumnWidth="120.0" defaultMinimumColumnWidth="80.0" defaultMinimumRowHeight="50.0" defaultRowHeight="80.0">
+                    <y:DefaultColumnInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                    <y:DefaultRowInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                    <y:Insets bottom="0.0" left="0.0" right="0.0" top="30.0"/>
+                    <y:Columns>
+                      <y:Column id="column_0" minimumWidth="80.0" width="313.10211351890484">
+                        <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                      </y:Column>
+                    </y:Columns>
+                    <y:Rows>
+                      <y:Row height="231.34193394276974" id="row_0" minimumHeight="50.0">
+                        <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                      </y:Row>
+                    </y:Rows>
+                  </y:Table>
+                </y:TableNode>
+              </data>
+              <graph edgedefault="directed" id="n0::n0::n5:">
+                <node id="n0::n0::n5::n0" yfiles.foldertype="group">
+                  <data key="d6">
+                    <y:TableNode configuration="YED_TABLE_NODE">
+                      <y:Geometry height="100.0" width="291.33892383264447" x="1081.7351070684697" y="117.76846216695442"/>
+                      <y:Fill color="#99CC00" color2="#0042F440" transparent="false"/>
+                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="40.7529296875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="182.42529296875" x="54.456815431947234" xml:space="preserve" y="4.0">Module A
+Namespace: \t2\modules\a</y:NodeLabel>
+                      <y:StyleProperties>
+                        <y:Property class="java.awt.Color" name="yed.table.section.color" value="#7192b2"/>
+                        <y:Property class="java.lang.Double" name="yed.table.header.height" value="24.0"/>
+                        <y:Property class="java.awt.Color" name="yed.table.lane.color.main" value="#ffffff"/>
+                        <y:Property class="java.awt.Color" name="yed.table.lane.color.alternating" value="#abc8e2"/>
+                        <y:Property class="java.awt.Color" name="yed.table.header.color.alternating" value="#abc8e2"/>
+                        <y:Property class="java.lang.String" name="yed.table.lane.style" value="lane.style.rows"/>
+                        <y:Property class="java.awt.Color" name="yed.table.header.color.main" value="#c4d7ed"/>
+                      </y:StyleProperties>
+                      <y:State autoResize="true" closed="false" closedHeight="80.0" closedWidth="100.0"/>
+                      <y:Insets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                      <y:Table autoResizeTable="true" defaultColumnWidth="120.0" defaultMinimumColumnWidth="80.0" defaultMinimumRowHeight="50.0" defaultRowHeight="80.0">
+                        <y:DefaultColumnInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                        <y:DefaultRowInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                        <y:Insets bottom="0.0" left="0.0" right="0.0" top="50.0"/>
+                        <y:Columns>
+                          <y:Column id="column_0" minimumWidth="80.0" width="291.33892383264447">
+                            <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                          </y:Column>
+                        </y:Columns>
+                        <y:Rows>
+                          <y:Row height="50.0" id="row_0" minimumHeight="50.0">
+                            <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                          </y:Row>
+                        </y:Rows>
+                      </y:Table>
+                    </y:TableNode>
+                  </data>
+                  <graph edgedefault="directed" id="n0::n0::n5::n0:"/>
+                </node>
+                <node id="n0::n0::n5::n1" yfiles.foldertype="group">
+                  <data key="d6">
+                    <y:TableNode configuration="YED_TABLE_NODE">
+                      <y:Geometry height="100.0" width="291.33892383264447" x="1081.7351070684697" y="228.27278843040125"/>
+                      <y:Fill color="#99CC00" color2="#0042F440" transparent="false"/>
+                      <y:BorderStyle color="#000000" type="line" width="1.0"/>
+                      <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="40.7529296875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="182.42529296875" x="54.456815431947234" xml:space="preserve" y="4.0">Module B
+Namespace: \t2\modules\b</y:NodeLabel>
+                      <y:StyleProperties>
+                        <y:Property class="java.awt.Color" name="yed.table.section.color" value="#7192b2"/>
+                        <y:Property class="java.lang.Double" name="yed.table.header.height" value="24.0"/>
+                        <y:Property class="java.awt.Color" name="yed.table.lane.color.main" value="#ffffff"/>
+                        <y:Property class="java.awt.Color" name="yed.table.lane.color.alternating" value="#abc8e2"/>
+                        <y:Property class="java.awt.Color" name="yed.table.header.color.alternating" value="#abc8e2"/>
+                        <y:Property class="java.lang.String" name="yed.table.lane.style" value="lane.style.rows"/>
+                        <y:Property class="java.awt.Color" name="yed.table.header.color.main" value="#c4d7ed"/>
+                      </y:StyleProperties>
+                      <y:State autoResize="true" closed="false" closedHeight="80.0" closedWidth="100.0"/>
+                      <y:Insets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                      <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+                      <y:Table autoResizeTable="true" defaultColumnWidth="120.0" defaultMinimumColumnWidth="80.0" defaultMinimumRowHeight="50.0" defaultRowHeight="80.0">
+                        <y:DefaultColumnInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                        <y:DefaultRowInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                        <y:Insets bottom="0.0" left="0.0" right="0.0" top="50.0"/>
+                        <y:Columns>
+                          <y:Column id="column_0" minimumWidth="80.0" width="291.33892383264447">
+                            <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                          </y:Column>
+                        </y:Columns>
+                        <y:Rows>
+                          <y:Row height="50.0" id="row_0" minimumHeight="50.0">
+                            <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                          </y:Row>
+                        </y:Rows>
+                      </y:Table>
+                    </y:TableNode>
+                  </data>
+                  <graph edgedefault="directed" id="n0::n0::n5::n1:"/>
+                </node>
+              </graph>
+            </node>
+          </graph>
+        </node>
+        <node id="n0::n1">
+          <data key="d6">
+            <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+              <y:Geometry height="69.02198852430885" width="265.0" x="480.0993134303045" y="-92.67057813392131"/>
+              <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="150.091796875" x="57.4541015625" xml:space="preserve" y="4.0">Config_server_exclude.php</y:NodeLabel>
+              <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="33.40234375" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="259.439453125" x="2.0" xml:space="preserve" y="30.701171875">Server specific configuration of T2. See:
+ROOT_CORE/dev/templates/Config_server.php<y:LabelModel><y:ErdAttributesNodeLabelModel/></y:LabelModel><y:ModelParameter><y:ErdAttributesNodeLabelModelParameter/></y:ModelParameter></y:NodeLabel>
+              <y:StyleProperties>
+                <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+              </y:StyleProperties>
+            </y:GenericNode>
+          </data>
+        </node>
+        <node id="n0::n2" yfiles.foldertype="group">
+          <data key="d6">
+            <y:TableNode configuration="YED_TABLE_NODE">
+              <y:Geometry height="120.0" width="289.10027261617523" x="769.1169302309365" y="-92.67057813392131"/>
+              <y:Fill color="#99CC00" color2="#0042F440" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.12939453125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="234.91064453125" x="27.094814042462644" xml:space="preserve" y="4.0">ROOT_DATA
+Example: /var/www/myproject/data
+Browser: HTTP_DATA</y:NodeLabel>
+              <y:StyleProperties>
+                <y:Property class="java.awt.Color" name="yed.table.section.color" value="#7192b2"/>
+                <y:Property class="java.lang.Double" name="yed.table.header.height" value="24.0"/>
+                <y:Property class="java.awt.Color" name="yed.table.lane.color.main" value="#ffffff"/>
+                <y:Property class="java.awt.Color" name="yed.table.lane.color.alternating" value="#abc8e2"/>
+                <y:Property class="java.awt.Color" name="yed.table.header.color.alternating" value="#abc8e2"/>
+                <y:Property class="java.lang.String" name="yed.table.lane.style" value="lane.style.rows"/>
+                <y:Property class="java.awt.Color" name="yed.table.header.color.main" value="#c4d7ed"/>
+              </y:StyleProperties>
+              <y:State autoResize="true" closed="false" closedHeight="80.0" closedWidth="100.0"/>
+              <y:Insets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+              <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+              <y:Table autoResizeTable="true" defaultColumnWidth="120.0" defaultMinimumColumnWidth="80.0" defaultMinimumRowHeight="50.0" defaultRowHeight="80.0">
+                <y:DefaultColumnInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                <y:DefaultRowInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                <y:Insets bottom="0.0" left="0.0" right="0.0" top="70.0"/>
+                <y:Columns>
+                  <y:Column id="column_0" minimumWidth="80.0" width="289.10027261617523">
+                    <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                  </y:Column>
+                </y:Columns>
+                <y:Rows>
+                  <y:Row height="50.0" id="row_0" minimumHeight="50.0">
+                    <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+                  </y:Row>
+                </y:Rows>
+              </y:Table>
+            </y:TableNode>
+          </data>
+          <graph edgedefault="directed" id="n0::n2:"/>
+        </node>
+      </graph>
+    </node>
+    <node id="n1">
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
+          <y:Geometry height="80.0" width="265.0" x="457.53367889135734" y="812.9765529463443"/>
+          <y:Fill color="#E8EEF7" color2="#B7C9E3" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#B7C9E3" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.701171875" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="23.3359375" x="120.83203125" xml:space="preserve" y="4.0">File</y:NodeLabel>
+          <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.701171875">
+            <y:LabelModel>
+              <y:ErdAttributesNodeLabelModel/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:ErdAttributesNodeLabelModelParameter/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.lang.Boolean" name="y.view.ShadowNodePainter.SHADOW_PAINTING" value="true"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
+    </node>
+    <node id="n2" yfiles.foldertype="group">
+      <data key="d6">
+        <y:TableNode configuration="YED_TABLE_NODE">
+          <y:Geometry height="80.0" width="80.0" x="677.5336788913573" y="709.1410260604976"/>
+          <y:Fill color="#FFCC00" color2="#0042F440" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="75.69677734375" x="2.151611328125" xml:space="preserve" y="4.0">Repository</y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.awt.Color" name="yed.table.section.color" value="#7192b2"/>
+            <y:Property class="java.lang.Double" name="yed.table.header.height" value="24.0"/>
+            <y:Property class="java.awt.Color" name="yed.table.lane.color.main" value="#ffffff"/>
+            <y:Property class="java.awt.Color" name="yed.table.lane.color.alternating" value="#abc8e2"/>
+            <y:Property class="java.awt.Color" name="yed.table.header.color.alternating" value="#abc8e2"/>
+            <y:Property class="java.lang.String" name="yed.table.lane.style" value="lane.style.rows"/>
+            <y:Property class="java.awt.Color" name="yed.table.header.color.main" value="#c4d7ed"/>
+          </y:StyleProperties>
+          <y:State autoResize="true" closed="false" closedHeight="80.0" closedWidth="100.0"/>
+          <y:Insets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+          <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+          <y:Table autoResizeTable="true" defaultColumnWidth="120.0" defaultMinimumColumnWidth="80.0" defaultMinimumRowHeight="50.0" defaultRowHeight="80.0">
+            <y:DefaultColumnInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+            <y:DefaultRowInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+            <y:Insets bottom="0.0" left="0.0" right="0.0" top="30.0"/>
+            <y:Columns>
+              <y:Column id="column_0" minimumWidth="80.0" width="80.0">
+                <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+              </y:Column>
+            </y:Columns>
+            <y:Rows>
+              <y:Row height="50.0" id="row_0" minimumHeight="50.0">
+                <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+              </y:Row>
+            </y:Rows>
+          </y:Table>
+        </y:TableNode>
+      </data>
+      <graph edgedefault="directed" id="n2:"/>
+    </node>
+    <node id="n3" yfiles.foldertype="group">
+      <data key="d6">
+        <y:TableNode configuration="YED_TABLE_NODE">
+          <y:Geometry height="80.0" width="80.0" x="567.5336788913573" y="709.1410260604976"/>
+          <y:Fill color="#FF9900" color2="#0042F440" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="75.69677734375" x="2.151611328125" xml:space="preserve" y="4.0">Repository</y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.awt.Color" name="yed.table.section.color" value="#7192b2"/>
+            <y:Property class="java.lang.Double" name="yed.table.header.height" value="24.0"/>
+            <y:Property class="java.awt.Color" name="yed.table.lane.color.main" value="#ffffff"/>
+            <y:Property class="java.awt.Color" name="yed.table.lane.color.alternating" value="#abc8e2"/>
+            <y:Property class="java.awt.Color" name="yed.table.header.color.alternating" value="#abc8e2"/>
+            <y:Property class="java.lang.String" name="yed.table.lane.style" value="lane.style.rows"/>
+            <y:Property class="java.awt.Color" name="yed.table.header.color.main" value="#c4d7ed"/>
+          </y:StyleProperties>
+          <y:State autoResize="true" closed="false" closedHeight="80.0" closedWidth="100.0"/>
+          <y:Insets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+          <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+          <y:Table autoResizeTable="true" defaultColumnWidth="120.0" defaultMinimumColumnWidth="80.0" defaultMinimumRowHeight="50.0" defaultRowHeight="80.0">
+            <y:DefaultColumnInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+            <y:DefaultRowInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+            <y:Insets bottom="0.0" left="0.0" right="0.0" top="30.0"/>
+            <y:Columns>
+              <y:Column id="column_0" minimumWidth="80.0" width="80.0">
+                <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+              </y:Column>
+            </y:Columns>
+            <y:Rows>
+              <y:Row height="50.0" id="row_0" minimumHeight="50.0">
+                <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+              </y:Row>
+            </y:Rows>
+          </y:Table>
+        </y:TableNode>
+      </data>
+      <graph edgedefault="directed" id="n3:"/>
+    </node>
+    <node id="n4" yfiles.foldertype="group">
+      <data key="d6">
+        <y:TableNode configuration="YED_TABLE_NODE">
+          <y:Geometry height="80.0" width="80.0" x="457.53367889135734" y="709.1410260604976"/>
+          <y:Fill color="#99CC00" color2="#0042F440" transparent="false"/>
+          <y:BorderStyle color="#000000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="22.37646484375" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="46.51708984375" x="16.741455078125" xml:space="preserve" y="4.0">Folder</y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.awt.Color" name="yed.table.section.color" value="#7192b2"/>
+            <y:Property class="java.lang.Double" name="yed.table.header.height" value="24.0"/>
+            <y:Property class="java.awt.Color" name="yed.table.lane.color.main" value="#ffffff"/>
+            <y:Property class="java.awt.Color" name="yed.table.lane.color.alternating" value="#abc8e2"/>
+            <y:Property class="java.awt.Color" name="yed.table.header.color.alternating" value="#abc8e2"/>
+            <y:Property class="java.lang.String" name="yed.table.lane.style" value="lane.style.rows"/>
+            <y:Property class="java.awt.Color" name="yed.table.header.color.main" value="#c4d7ed"/>
+          </y:StyleProperties>
+          <y:State autoResize="true" closed="false" closedHeight="80.0" closedWidth="100.0"/>
+          <y:Insets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+          <y:BorderInsets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
+          <y:Table autoResizeTable="true" defaultColumnWidth="120.0" defaultMinimumColumnWidth="80.0" defaultMinimumRowHeight="50.0" defaultRowHeight="80.0">
+            <y:DefaultColumnInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+            <y:DefaultRowInsets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+            <y:Insets bottom="0.0" left="0.0" right="0.0" top="30.0"/>
+            <y:Columns>
+              <y:Column id="column_0" minimumWidth="80.0" width="80.0">
+                <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+              </y:Column>
+            </y:Columns>
+            <y:Rows>
+              <y:Row height="50.0" id="row_0" minimumHeight="50.0">
+                <y:Insets bottom="0.0" left="0.0" right="0.0" top="0.0"/>
+              </y:Row>
+            </y:Rows>
+          </y:Table>
+        </y:TableNode>
+      </data>
+      <graph edgedefault="directed" id="n4:"/>
+    </node>
+  </graph>
+  <data key="d7">
+    <y:Resources/>
+  </data>
+</graphml>
