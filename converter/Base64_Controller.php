@@ -6,7 +6,7 @@
  * certain conditions. See the GNU General Public License (file 'LICENSE' in the root directory) for more details.
  GPL*/
 
-namespace t2\modules\dev_tools\converter;
+namespace t2\modules\t2_development\converter;
 
 class Base64_Controller {
 

@@ -6,13 +6,13 @@
  * certain conditions. See the GNU General Public License (file 'LICENSE' in the root directory) for more details.
  GPL*/
 
-namespace t2\modules\dev_tools\converter;
+namespace t2\modules\t2_development\converter;
 
 require_once '../../../tethys/Start.php';
 use t2\Start;
 $page = Start::init_("PAGEID_CONVERTER_BASE64");
-require_once HDDROOT_PROJECT.'/modules/dev_tools/converter/Base64_Views.php';
-require_once HDDROOT_PROJECT.'/modules/dev_tools/converter/Base64_Controller.php';
+require_once HDDROOT_PROJECT.'/modules/t2_development/converter/Base64_Views.php';
+require_once HDDROOT_PROJECT.'/modules/t2_development/converter/Base64_Controller.php';
 
 use t2\core\service\Request;
 

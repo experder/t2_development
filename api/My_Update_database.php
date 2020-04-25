@@ -6,7 +6,7 @@
  * certain conditions. See the GNU General Public License (file 'LICENSE' in the root directory) for more details.
  GPL*/
 
-namespace t2\modules\dev_tools\api;
+namespace t2\modules\t2_development\api;
 
 use t2\api\Update_database;
 

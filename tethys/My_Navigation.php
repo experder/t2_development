@@ -6,7 +6,7 @@
  * certain conditions. See the GNU General Public License (file 'LICENSE' in the root directory) for more details.
  GPL*/
 
-namespace t2\modules\dev_tools\api;
+namespace t2\modules\t2_development\api;
 
 use t2\api\Navigation;
 use t2\core\Html;
@@ -14,15 +14,15 @@ use t2\core\Html;
 class My_Navigation extends Navigation {
 
 	public function __construct() {
-		parent::__construct('PAGEID_DEVTOOLS_INDEX',"Dev Tools",Html::href_internal_module("dev_tools", "index"),null);
+		parent::__construct('PAGEID_DEVTOOLS_INDEX',"Dev Tools",Html::href_internal_module("t2_development", "index"),null);
 	}
 
 	public function getChildren() {
 		if($this->children===null){
 			$this->children=array(
-				new Navigation('PAGEID_DEVTOOLS_PICKATODO',"Pick-A-Todo",Html::href_internal_module("dev_tools", "pick-a-todo")),
-				new Navigation('PAGEID_DEVTOOLS_CONVERTTODOS',"Convert TODOs",Html::href_internal_module('dev_tools',"convert_todos")),
-				new Navigation('PAGEID_CONVERTER_BASE64',"Convert BASE64",Html::href_internal_module('dev_tools',"converter/base64")),
+				new Navigation('PAGEID_DEVTOOLS_PICKATODO',"Pick-A-Todo",Html::href_internal_module("t2_development", "pick-a-todo")),
+				new Navigation('PAGEID_DEVTOOLS_CONVERTTODOS',"Convert TODOs",Html::href_internal_module('t2_development',"convert_todos")),
+				new Navigation('PAGEID_CONVERTER_BASE64',"Convert BASE64",Html::href_internal_module('t2_development',"converter/base64")),
 			);
 		}
 		return $this->children;

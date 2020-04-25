@@ -6,10 +6,11 @@
  * certain conditions. See the GNU General Public License (file 'LICENSE' in the root directory) for more details.
  GPL*/
 
-namespace t2\modules\dev_tools;
+namespace t2\modules\t2_development;
 
 require_once 'Start.php';
 
+use t2\core\Page;
 use t2\dev\Debug;
 use t2\Start;
 
@@ -82,6 +83,6 @@ $winner_array = $todos[$max_cat];
 $random_number = rand(0, count($winner_array)-1);
 $todo = $winner_array[$random_number];
 
-$page->add_message_info("<b>".htmlentities($todo)."</b><br><i style='display:block;text-align: right'>from the category \"$max_cat\"</i>");
+Page::add_message_info_("<b>".htmlentities($todo)."</b><br><i style='display:block;text-align: right'>from the category \"$max_cat\"</i>");
 
 $page->send_and_quit();
